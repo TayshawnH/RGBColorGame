@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colorGame.css" />
+  </head>
+  <body>
+    <h1>
+      A Simple
+      <br />
+      <span id="colorDisplay">RGB</span>
+      <br />
+      Color Game
+    </h1>
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="mode">Easy</button>
+      <button class="mode selected">Normal</button>
+      <button class="mode">Hard</button>
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">Help</button>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- <span class="close">&times;</span> -->
+          <div class="close-container">
+            <div class="leftright"></div>
+            <div class="rightleft"></div>
+          </div>
+          <img src="Image/rgb.png" alt="RGB" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+      <div class="square squareHover"></div>
+    </div>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"
+    ></script>
+
+    <script src="colorGame.js"></script>
+  </body>
+</html>
